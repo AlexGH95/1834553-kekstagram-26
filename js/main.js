@@ -7,13 +7,13 @@ function getRandom(min, max) {
   }
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-  //Функция может не гарантировать верный результат, если в переданном диапазоне нет ни одного подходящего числа???
+//Функция может не гарантировать верный результат, если в переданном диапазоне нет ни одного подходящего числа???
 
 //Функция для проверки максимальной длины строки
 function checkMaxStringLength(string, maxLength) {
   if (maxLength >= string.length) {
-    return true
+    return true;
   }
-  return false
+  return false;
 }
-///
+
